@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(24, 23, 43);
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+#inputdiv {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#inputdiv label {
+  color: white;
+  font-size: 20px;
+}
+
+#inputdiv input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  background-color: rgb(102, 202, 102);
+}
+
+.line {
+  width: 100%;
+  margin-top: 30px;
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 700;
+  color: white;
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  background-color: rgb(181, 3, 3);
+  color: white;
+  font-size: 20px;
+}
+
+.edit-btn {
+  background-color: rgb(186, 186, 1);
+  font-size: 20px;
+}
