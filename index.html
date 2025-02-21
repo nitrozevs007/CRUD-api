@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>CRUD</title>
 </head>
 
 <body>
@@ -30,21 +30,32 @@
         <input type="text" id="email" class="email" placeholder="Enter Email">
       </div>
 
-      <button type="button" id="add-btn" class="add-btn">Add Data</button>
+      <div class="btns">
+        <button type="button" id="add-btn" class="add-btn">Add Data</button>
+        <button type="button" id="add-save" class="add-save">Save Data</button>
+      </div>
     </div>
 
     <div class="line"></div>
 
-    <table id="table">
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Address</th>
-        <th>Email</th>
-        <th>Actions</th>
-      </tr>
-
-    </table>
+    <div class="users">
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+  
+        <tbody id="tbody">
+  
+        </tbody>
+  
+      </table>
+    </div>
 
   </div>
 
